@@ -29,3 +29,9 @@ span.currentExperience {
   transform: translate(-50%);
   transition: all .8s;
 }
+
+@media(max-width: 425px) {
+  .experienceBar span {
+    font-size: .9rem;
+  }
+}

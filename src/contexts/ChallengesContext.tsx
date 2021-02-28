@@ -75,7 +75,7 @@ export function ChallengesProvider({
         body: `Valendo ${challenge.amount}xp!`
       });
 
-      new Audio('/notification.mp3').play();
+      // new Audio('/notification.mp3').play();
     }
   }
 

@@ -50,7 +50,7 @@ export function Countdown() {
               onClick={resetCountdown}
             >
               Abandonar ciclo
-              <span className={styles.countdownButtonPause} />
+              <span className={styles.countdownButtonCancel} />
             </button>
           ) : (
             <button

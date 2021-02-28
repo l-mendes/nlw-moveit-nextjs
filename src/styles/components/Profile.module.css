@@ -27,3 +27,24 @@
 .profileContainer div p img {
   margin-right: 0.5rem;
 }
+
+@media(max-width: 768px) {
+  .profileContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .profileContainer > img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .profileContainer div {
+    margin: 1.5rem 0 0;
+  }
+
+  .profileContainer div p {
+    text-align: center;
+  }
+}
